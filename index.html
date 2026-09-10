@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SAMAR Laptop Choice Portal | Smart AI Laptop Advisor</title>
+  <meta name="description" content="Find the perfect laptop within your budget, storage, RAM, and processor needs with SAMAR Laptop Choice Portal." />
+  
+  <!-- Google Fonts: Outfit & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-glow-orb-1"></div>
+  <div class="bg-glow-orb-2"></div>
+
+  <div class="app-wrapper">
+    <!-- Header -->
+    <header class="portal-header">
+      <div class="brand-wrapper">
+        <div class="brand-icon-box">
+          <i data-lucide="laptop"></i>
+        </div>
+        <div>
+          <h1 class="brand-title">SAMAR Laptop Portal</h1>
+          <p class="brand-tagline">Smart Advisory &amp; Machine Analysis for Laptop Recommendations</p>
+        </div>
+      </div>
+
+      <div class="header-badges">
+        <span class="pill-tag"><i data-lucide="cpu"></i> Intel 11th, 12th, 13th &amp; 14th Gen</span>
+        <span class="pill-tag"><i data-lucide="zap"></i> AMD Ryzen Series</span>
+        <span class="pill-tag pill-tag-gta"><i data-lucide="gamepad-2"></i> GTA 5 FPS Benchmarks</span>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="hero-tag"><i data-lucide="compass"></i> Personalized Tech Advisory</div>
+      <h2 class="hero-heading">Find the <span>Best Laptop</span> for Your Exact Needs</h2>
+      <p class="hero-sub">Enter your budget, desired RAM, storage, processor generation (11th to 14th Gen / Ryzen), and intended purpose. Includes verified <strong>GTA 5 gaming FPS</strong> benchmarks!</p>
+    </section>
+
+    <!-- Quick Presets -->
+    <div class="presets-strip">
+      <div class="presets-label"><i data-lucide="sparkles"></i> Quick Picks:</div>
+      <div class="preset-chips-wrap" id="presetChips">
+        <!-- Injected by JavaScript -->
+      </div>
+    </div>
+
+    
+    <!-- Interactive Deal & Discount Calculator Bar -->
+    <section class="discount-calc-bar">
+      <div class="discount-calc-header">
+        <div class="calc-header-title">
+          <i data-lucide="tag" class="calc-icon"></i>
+          <div>
+            <h3>Samar Deal &amp; Discount Calculator</h3>
+            <p>Apply student discounts, credit card bank offers, and trade-in exchange bonus to calculate your final effective payable price.</p>
+          </div>
+        </div>
+        <div class="savings-summary-pill" id="globalSavingsPill">
+          <span class="savings-summary-label">Active Savings Applied:</span>
+          <span class="savings-summary-val" id="globalSavingsVal">₹0 Off</span>
+        </div>
+      </div>
+
+      <div class="discount-controls-grid">
+        <!-- Student Discount Toggle -->
+        <div class="discount-tile" id="studentTile">
+          <label class="custom-toggle">
+            <input type="checkbox" id="studentDiscountToggle" />
+            <span class="toggle-slider"></span>
+          </label>
+          <div class="discount-tile-text">
+            <span class="tile-title"><i data-lucide="graduation-cap"></i> Student / Education ID</span>
+            <span class="tile-desc">Flat 7% off (Up to ₹7,000 off on UNiDAYS / Student Beans)</span>
+          </div>
+        </div>
+
+        <!-- Bank Credit Card Dropdown -->
+        <div class="discount-tile">
+          <div class="discount-tile-icon"><i data-lucide="credit-card"></i></div>
+          <div class="discount-tile-text" style="flex: 1;">
+            <span class="tile-title">Credit Card / Bank Offer</span>
+            <select id="bankOfferSelect" class="select-custom-sm">
+              <option value="none">No Card Offer</option>
+              <option value="hdfc">HDFC Bank Credit Card (Flat ₹4,000 Instant Off)</option>
+              <option value="icici">ICICI Bank Credit Card (Flat ₹5,000 Instant Off)</option>
+              <option value="sbi">SBI Credit Card (Flat ₹3,500 Instant Off)</option>
+              <option value="axis">Axis Bank Credit Card (Flat ₹3,000 Instant Off)</option>
+              <option value="instant10">10% Instant Card Discount (Up to ₹5,000)</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Laptop Exchange Bonus Dropdown -->
+        <div class="discount-tile">
+          <div class="discount-tile-icon"><i data-lucide="repeat"></i></div>
+          <div class="discount-tile-text" style="flex: 1;">
+            <span class="tile-title">Old Laptop Exchange Bonus</span>
+            <select id="exchangeSelect" class="select-custom-sm">
+              <option value="0">No Exchange (Keep Old Laptop)</option>
+              <option value="4000">Working Budget Laptop (~₹4,000 Trade-In)</option>
+              <option value="7000">Working Core i5 / Ryzen 5 (~₹7,000 Trade-In)</option>
+              <option value="12000">Good Condition Gaming/Ultrabook (~₹12,000 Trade-In)</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Control Hub -->
+    <section class="control-hub">
+      <div class="hub-section-title">
+        <i data-lucide="crosshair"></i> 1. Select Your Primary Purpose
+      </div>
+      <div class="purpose-grid" id="purposeGrid">
+        <!-- Injected by JavaScript -->
+      </div>
+
+      <div class="filter-matrix">
+        <!-- Budget Filter -->
+        <div class="filter-group">
+          <div class="filter-label">
+            <span>2. Max Budget</span>
+            <span class="budget-val-badge" id="budgetDisplay">₹90,000</span>
+          </div>
+          <div class="budget-box">
+            <input type="range" id="budgetSlider" class="slider-custom" min="30000" max="220000" step="2000" value="90000" />
+            <div class="budget-sub-row">
+              <div class="budget-num-input-wrap">
+                <span class="currency-sym">₹</span>
+                <input type="number" id="budgetInput" class="budget-input-field" min="30000" max="250000" step="1000" value="90000" />
+              </div>
+              <label class="flex-budget-label" title="Allows suggesting a laptop that costs up to 5% more if it offers a massive generational jump">
+                <input type="checkbox" id="flexBudgetToggle" checked />
+                <span>+5% value stretch</span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <!-- Processor Filter (11th, 12th, 13th, 14th Gen & Ryzen) -->
+        <div class="filter-group">
+          <div class="filter-label">
+            <span>3. Processor Choice</span>
+          </div>
+          <select id="processorSelect" class="select-custom">
+            <option value="any">⚡ Any Recommended Processor</option>
+            <optgroup label="Intel Generations">
+              <option value="intel-11th">Intel 11th Gen Tiger Lake (i3/i5/i7)</option>
+              <option value="intel-12th">Intel 12th Gen Alder Lake (i3/i5/i7)</option>
+              <option value="intel-13th">Intel 13th Gen Raptor Lake (i3/i5/i7)</option>
+              <option value="intel-14th">Intel 14th Gen / Core Ultra</option>
+            </optgroup>
+            <optgroup label="Intel Core Tiers (All Gens)">
+              <option value="intel-i3">Intel Core i3 (11th to 14th Gen)</option>
+              <option value="intel-i5">Intel Core i5 (11th to 14th Gen)</option>
+              <option value="intel-i7">Intel Core i7 (11th to 14th Gen)</option>
+            </optgroup>
+            <optgroup label="AMD Ryzen Processors">
+              <option value="amd-ryzen-3">AMD Ryzen 3 Series</option>
+              <option value="amd-ryzen-5">AMD Ryzen 5 Series (5500U, 7520U)</option>
+              <option value="amd-ryzen-7">AMD Ryzen 7 Series (7735HS, 7840HS, 8845HS)</option>
+              <option value="amd-ryzen-all">All AMD Ryzen Models</option>
+            </optgroup>
+            <optgroup label="Apple Silicon">
+              <option value="apple-m">Apple M2 / M3 Series</option>
+            </optgroup>
+          </select>
+        </div>
+
+        <!-- RAM Filter -->
+        <div class="filter-group">
+          <div class="filter-label">
+            <span>4. Minimum RAM</span>
+          </div>
+          <select id="ramSelect" class="select-custom">
+            <option value="any">Any RAM Size</option>
+            <option value="8">8 GB RAM</option>
+            <option value="16">16 GB RAM (Recommended)</option>
+            <option value="24">24 GB RAM</option>
+            <option value="32">32 GB RAM (Pro / AI)</option>
+          </select>
+        </div>
+
+        <!-- Storage Filter -->
+        <div class="filter-group">
+          <div class="filter-label">
+            <span>5. Storage Size</span>
+          </div>
+          <select id="storageSelect" class="select-custom">
+            <option value="any">Any Storage Capacity</option>
+            <option value="256">256 GB SSD</option>
+            <option value="512">512 GB NVMe SSD</option>
+            <option value="1000">1 TB NVMe SSD</option>
+            <option value="2000">2 TB NVMe SSD</option>
+          </select>
+        </div>
+
+        <!-- Brand Filter -->
+        <div class="filter-group">
+          <div class="filter-label">
+            <span>6. Preferred Brand</span>
+          </div>
+          <select id="brandSelect" class="select-custom">
+            <option value="all">🏢 All Trusted Brands</option>
+            <option value="Lenovo">Lenovo (LOQ, Legion, IdeaPad)</option>
+            <option value="ASUS">ASUS (Vivobook, TUF, ROG)</option>
+            <option value="HP">HP (Victus, Pavilion, OMEN, 14s/15s)</option>
+            <option value="Dell">Dell (Inspiron, Vostro, XPS)</option>
+            <option value="Acer">Acer (Aspire, Nitro, Predator, Swift)</option>
+            <option value="Apple">Apple (MacBook Air, MacBook Pro)</option>
+            <option value="MSI">MSI (Thin, GF63, Katana)</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <!-- Winner Spotlight Banner -->
+    <div id="spotlightSection" class="spotlight-section">
+      <!-- Injected by JavaScript -->
+    </div>
+
+    <!-- Toolbar: Search, Count & Sort -->
+    <div class="toolbar-strip">
+      <div class="search-box-wrap">
+        <i data-lucide="search" class="search-icon-inside"></i>
+        <input type="text" id="searchInput" class="search-input-field" placeholder="Search by model, specs (e.g. 11th Gen, 12th Gen, LOQ, RTX 4060, GTA)..." />
+      </div>
+
+      <div class="toolbar-right">
+        <div class="results-count-badge" id="resultsCountBadge">Loading laptops...</div>
+        <div class="sort-dropdown-wrap">
+          <span>Sort By:</span>
+          <select id="sortSelect" class="select-custom" style="width: 210px;">
+            <option value="samar-match">🌟 Samar Match Score</option>
+            <option value="gta-fps">🎮 GTA 5 FPS (Highest First)</option>
+            <option value="price-low">💰 Price: Low to High</option>
+            <option value="price-high">💎 Price: High to Low</option>
+            <option value="rating">⭐ Customer Rating</option>
+            <option value="cpu-power">🚀 CPU Benchmark Power</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- Laptops Grid -->
+    <div class="laptops-grid" id="laptopsGrid">
+      <!-- Injected by JavaScript -->
+    </div>
+
+    <!-- Floating Comparison Bar -->
+    <div id="compareFloatingBar" class="compare-floating-bar hidden">
+      <!-- Injected by JavaScript -->
+    </div>
+
+    <!-- Full Details Modal -->
+    <div id="detailsModal" class="modal-backdrop hidden">
+      <div class="modal-container">
+        <button class="modal-close-btn" onclick="closeDetailsModal()">&times;</button>
+        <div id="detailsModalContent">
+          <!-- Injected by JavaScript -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Compare Side-by-Side Modal -->
+    <div id="compareModal" class="modal-backdrop hidden">
+      <div class="modal-container" style="max-width: 1150px;">
+        <button class="modal-close-btn" onclick="closeCompareModal()">&times;</button>
+        <div id="compareModalContent">
+          <!-- Injected by JavaScript -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="portal-footer">
+      <p>SAMAR Laptop Choice Portal &bull; Intelligent recommendations across Intel 11th, 12th, 13th, 14th Gen and AMD Ryzen with verified GTA 5 benchmarks.</p>
+    </footer>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
