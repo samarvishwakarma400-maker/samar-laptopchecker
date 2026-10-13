@@ -1,5 +1,5 @@
 // SAMAR Laptop Choice Portal - Comprehensive Laptop Database
-// Featuring Intel 11th, 12th, 13th & 14th Gen, AMD Ryzen, Apple M3
+// Featuring Intel 11th, 12th, 13th & 14th Gen, Core Ultra, AMD Ryzen 5000/7000/8000, Apple M2/M3 Silicon
 // With verified public CDN authentic images, GTA 5 benchmarks and direct store links
 
 const LAPTOPS_DATA = [
@@ -1931,6 +1931,1376 @@ const LAPTOPS_DATA = [
       "brandStoreName": "Apple India Store"
     },
     "localImage": "images/apple-macbook-air-m3-16gb.png"
+  },
+  {
+    "id": "lenovo-v15-g4-ryzen3",
+    "name": "Lenovo V15 G4 (Ryzen 3 / 8GB / 512GB SSD)",
+    "brand": "Lenovo",
+    "series": "V15",
+    "price": 29990,
+    "originalPrice": 42990,
+    "rating": 4.2,
+    "reviewsCount": 1450,
+    "image": "https://p4-ofp.static.pub//fes/cms/2024/05/20/d6onrgwtki5a57q687ztkqftuog5mf017643.png",
+    "processor": {
+      "brand": "AMD",
+      "tier": "Ryzen 3",
+      "generation": "7000 Series",
+      "model": "AMD Ryzen 3 7320U (4 Cores / 8 Threads)",
+      "cores": 4,
+      "threads": 8,
+      "baseSpeed": "2.4 GHz",
+      "boostSpeed": "4.1 GHz"
+    },
+    "ram": 8,
+    "ramType": "LPDDR5 5500MHz",
+    "ramExpandable": false,
+    "storage": 512,
+    "storageType": "PCIe NVMe M.2 SSD",
+    "gpu": {
+      "type": "Integrated",
+      "name": "AMD Radeon 610M",
+      "vram": "Shared"
+    },
+    "display": {
+      "size": "15.6 inch",
+      "resolution": "Full HD (1920x1080)",
+      "refreshRate": "60Hz",
+      "panel": "Anti-Glare TN",
+      "brightness": "250 nits"
+    },
+    "battery": {
+      "capacity": "38 Wh",
+      "lifeHours": 6.5,
+      "fastCharging": "Rapid Charge (80% in 60m)"
+    },
+    "weight": 1.65,
+    "os": "Windows 11 Home + MS Office 2021",
+    "suitableFor": [
+      "college",
+      "office"
+    ],
+    "benchmarkScores": {
+      "singleCore": 1220,
+      "multiCore": 3600,
+      "gamingFPS": 30,
+      "gta5FPS": 35,
+      "gta5Settings": "720p/1080p Normal (30-38 FPS)",
+      "productivityScore": 67
+    },
+    "pros": [
+      "Ultra affordable under \u20b930,000",
+      "Fast modern LPDDR5 5500MHz memory",
+      "Spacious 512GB PCIe NVMe SSD",
+      "Full numeric keypad for Excel & accounting"
+    ],
+    "cons": [
+      "Display viewing angles are average (TN panel)",
+      "RAM is soldered and cannot be expanded"
+    ],
+    "samarVerdict": "The absolute best laptop in India under \u20b930,000 for tight budgets! Handles college assignments, web browsing, Zoom calls, and basic GTA 5 on low settings.",
+    "buyLinks": {
+      "amazon": "https://www.amazon.in/s?k=Lenovo%20V15%20G4%20Ryzen%203",
+      "flipkart": "https://www.flipkart.com/search?q=Lenovo%20V15%20G4%20Ryzen%203",
+      "brandStore": "https://www.lenovo.com/in/en/p/laptops/lenovo-laptops/v-series/",
+      "brandStoreName": "Lenovo India Official Store"
+    },
+    "localImage": "images/lenovo-v15-g4-ryzen3.png"
+  },
+  {
+    "id": "hp-victus-15-ryzen-5600h",
+    "name": "HP Victus 15 (Ryzen 5 / RX 6500M / 144Hz)",
+    "brand": "HP",
+    "series": "Victus",
+    "price": 49990,
+    "originalPrice": 68990,
+    "rating": 4.3,
+    "reviewsCount": 2900,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/67/HP_Victus_15_gaming_laptop_side_view.jpg",
+    "processor": {
+      "brand": "AMD",
+      "tier": "Ryzen 5",
+      "generation": "5000 Series",
+      "model": "AMD Ryzen 5 5600H (6 Cores / 12 Threads)",
+      "cores": 6,
+      "threads": 12,
+      "baseSpeed": "3.3 GHz",
+      "boostSpeed": "4.2 GHz"
+    },
+    "ram": 16,
+    "ramType": "DDR4 3200MHz",
+    "ramExpandable": true,
+    "storage": 512,
+    "storageType": "PCIe NVMe M.2 SSD",
+    "gpu": {
+      "type": "Dedicated",
+      "name": "AMD Radeon RX 6500M",
+      "vram": "4GB GDDR6"
+    },
+    "display": {
+      "size": "15.6 inch",
+      "resolution": "Full HD (1920x1080)",
+      "refreshRate": "144Hz",
+      "panel": "IPS Micro-Edge Anti-Glare",
+      "brightness": "250 nits"
+    },
+    "battery": {
+      "capacity": "52.5 Wh",
+      "lifeHours": 5.5,
+      "fastCharging": "HP Fast Charge (50% in 45m)"
+    },
+    "weight": 2.29,
+    "os": "Windows 11 Home",
+    "suitableFor": [
+      "college",
+      "gaming",
+      "coding"
+    ],
+    "benchmarkScores": {
+      "singleCore": 1380,
+      "multiCore": 5800,
+      "gamingFPS": 68,
+      "gta5FPS": 72,
+      "gta5Settings": "1080p High (65-80 FPS)",
+      "productivityScore": 78
+    },
+    "pros": [
+      "Dedicated 4GB GDDR6 GPU under \u20b950,000",
+      "Smooth 144Hz IPS display",
+      "16GB dual-channel RAM pre-installed",
+      "OMEN Gaming Hub thermal management"
+    ],
+    "cons": [
+      "Display color gamut is standard 45% NTSC",
+      "Charger brick is on the heavier side"
+    ],
+    "samarVerdict": "King of Budget Gaming! If you have exactly \u20b950,000, this HP Victus gives you a 6-core Ryzen 5, 16GB RAM, and 72 FPS in GTA 5 on High settings.",
+    "buyLinks": {
+      "amazon": "https://www.amazon.in/s?k=HP%20Victus%2015%20Ryzen%205%205600H",
+      "flipkart": "https://www.flipkart.com/search?q=HP%20Victus%2015%20Ryzen%205%205600H",
+      "brandStore": "https://www.hp.com/in-en/shop/laptops-tablets/gaming-laptops/victus.html",
+      "brandStoreName": "HP Online Store India"
+    },
+    "localImage": "images/hp-victus-15-ryzen-5600h.jpg"
+  },
+  {
+    "id": "hp-pavilion-15-i5-13th",
+    "name": "HP Pavilion 15 (13th Gen Core i5 / B&O Audio)",
+    "brand": "HP",
+    "series": "Pavilion",
+    "price": 57990,
+    "originalPrice": 74990,
+    "rating": 4.4,
+    "reviewsCount": 1650,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/dc/HP_Pavilion_15_cs3095nr.png",
+    "processor": {
+      "brand": "Intel",
+      "tier": "i5",
+      "generation": "13th Gen",
+      "model": "Intel Core i5-1335U (10 Cores / 12 Threads)",
+      "cores": 10,
+      "threads": 12,
+      "baseSpeed": "1.3 GHz",
+      "boostSpeed": "4.6 GHz"
+    },
+    "ram": 16,
+    "ramType": "DDR4 3200MHz",
+    "ramExpandable": true,
+    "storage": 512,
+    "storageType": "PCIe NVMe M.2 SSD",
+    "gpu": {
+      "type": "Integrated",
+      "name": "Intel Iris Xe Graphics",
+      "vram": "Shared"
+    },
+    "display": {
+      "size": "15.6 inch",
+      "resolution": "Full HD (1920x1080)",
+      "refreshRate": "60Hz",
+      "panel": "IPS Micro-Edge BrightView",
+      "brightness": "300 nits"
+    },
+    "battery": {
+      "capacity": "43 Wh",
+      "lifeHours": 7.5,
+      "fastCharging": "HP Fast Charge (50% in 45m)"
+    },
+    "weight": 1.75,
+    "os": "Windows 11 Home + MS Office 2021",
+    "suitableFor": [
+      "college",
+      "office",
+      "coding"
+    ],
+    "benchmarkScores": {
+      "singleCore": 1720,
+      "multiCore": 6400,
+      "gamingFPS": 42,
+      "gta5FPS": 48,
+      "gta5Settings": "1080p Normal (44-54 FPS)",
+      "productivityScore": 82
+    },
+    "pros": [
+      "10-Core 13th Gen Intel processor with great multitasking",
+      "Bang & Olufsen high fidelity audio speakers",
+      "Backlit keyboard with dedicated numpad",
+      "Bright 300 nits IPS display with vivid colors"
+    ],
+    "cons": [
+      "Not designed for heavy AAA modern ray-traced gaming",
+      "Standard 60Hz refresh rate"
+    ],
+    "samarVerdict": "The quintessential all-rounder for college students and working professionals. Classy metal keyboard deck, excellent speakers for entertainment, and dependable HP reliability.",
+    "buyLinks": {
+      "amazon": "https://www.amazon.in/s?k=HP%20Pavilion%2015%2013th%20Gen%20i5",
+      "flipkart": "https://www.flipkart.com/search?q=HP%20Pavilion%2015%2013th%20Gen%20i5",
+      "brandStore": "https://www.hp.com/in-en/shop/laptops-tablets/lifestyle-laptops/pavilion.html",
+      "brandStoreName": "HP Online Store India"
+    },
+    "localImage": "images/hp-pavilion-15-i5-13th.png"
+  },
+  {
+    "id": "lenovo-ideapad-flex-5-ryzen5",
+    "name": "Lenovo IdeaPad Flex 5 14 (Ryzen 5 / 2-in-1 Touch + Pen)",
+    "brand": "Lenovo",
+    "series": "IdeaPad Flex",
+    "price": 62990,
+    "originalPrice": 79990,
+    "rating": 4.5,
+    "reviewsCount": 1120,
+    "image": "https://p4-ofp.static.pub//fes/cms/2024/08/23/aecao4pbkx3w8n9bjvs286w0oj8j5t361897.png",
+    "processor": {
+      "brand": "AMD",
+      "tier": "Ryzen 5",
+      "generation": "7000 Series",
+      "model": "AMD Ryzen 5 7530U (6 Cores / 12 Threads)",
+      "cores": 6,
+      "threads": 12,
+      "baseSpeed": "2.0 GHz",
+      "boostSpeed": "4.5 GHz"
+    },
+    "ram": 16,
+    "ramType": "LPDDR4X 4266MHz",
+    "ramExpandable": false,
+    "storage": 512,
+    "storageType": "PCIe NVMe M.2 SSD",
+    "gpu": {
+      "type": "Integrated",
+      "name": "AMD Radeon Graphics",
+      "vram": "Shared"
+    },
+    "display": {
+      "size": "14.0 inch",
+      "resolution": "WUXGA (1920x1200)",
+      "refreshRate": "60Hz",
+      "panel": "16:10 IPS Glossy Touchscreen (Lenovo Pen Included)",
+      "brightness": "300 nits"
+    },
+    "battery": {
+      "capacity": "52.5 Wh",
+      "lifeHours": 9.5,
+      "fastCharging": "Rapid Charge Boost (2h on 15m)"
+    },
+    "weight": 1.55,
+    "os": "Windows 11 Home + MS Office 2021",
+    "suitableFor": [
+      "college",
+      "office",
+      "coding"
+    ],
+    "benchmarkScores": {
+      "singleCore": 1450,
+      "multiCore": 5900,
+      "gamingFPS": 36,
+      "gta5FPS": 42,
+      "gta5Settings": "1080p Normal (38-46 FPS)",
+      "productivityScore": 80
+    },
+    "pros": [
+      "Versatile 360-degree hinge (Laptop, Tablet, Tent, Stand)",
+      "Includes Lenovo Digital Stylus Pen in box",
+      "16:10 taller aspect ratio for reading & documents",
+      "Fingerprint reader & privacy webcam shutter"
+    ],
+    "cons": [
+      "RAM is non-upgradable",
+      "Glossy screen has reflections outdoors"
+    ],
+    "samarVerdict": "Best student note-taking companion! The 360\u00b0 touchscreen with pen lets you draw diagrams, mark up lecture PDFs, and fold it into a tablet on the go.",
+    "buyLinks": {
+      "amazon": "https://www.amazon.in/s?k=Lenovo%20IdeaPad%20Flex%205%20Ryzen%205",
+      "flipkart": "https://www.flipkart.com/search?q=Lenovo%20IdeaPad%20Flex%205%20Ryzen%205",
+      "brandStore": "https://www.lenovo.com/in/en/p/laptops/ideapad/ideapad-flex-series/",
+      "brandStoreName": "Lenovo India Official Store"
+    },
+    "localImage": "images/lenovo-ideapad-flex-5-ryzen5.png"
+  },
+  {
+    "id": "lenovo-thinkpad-e16-i5-13th",
+    "name": "Lenovo ThinkPad E16 (13th Gen Core i5 / MIL-STD-810H)",
+    "brand": "Lenovo",
+    "series": "ThinkPad",
+    "price": 64990,
+    "originalPrice": 84990,
+    "rating": 4.6,
+    "reviewsCount": 1530,
+    "image": "https://p1-ofp.static.pub//fes/cms/2023/12/12/mux3e5xihfgf6zgcftmcrhcd4s21n7669223.png",
+    "processor": {
+      "brand": "Intel",
+      "tier": "i5",
+      "generation": "13th Gen",
+      "model": "Intel Core i5-1335U (10 Cores / 12 Threads)",
+      "cores": 10,
+      "threads": 12,
+      "baseSpeed": "1.3 GHz",
+      "boostSpeed": "4.6 GHz"
+    },
+    "ram": 16,
+    "ramType": "DDR4 3200MHz",
+    "ramExpandable": true,
+    "storage": 512,
+    "storageType": "PCIe NVMe M.2 SSD",
+    "gpu": {
+      "type": "Integrated",
+      "name": "Intel Iris Xe Graphics",
+      "vram": "Shared"
+    },
+    "display": {
+      "size": "16.0 inch",
+      "resolution": "WUXGA (1920x1200)",
+      "refreshRate": "60Hz",
+      "panel": "16:10 IPS Anti-Glare",
+      "brightness": "300 nits"
+    },
+    "battery": {
+      "capacity": "57 Wh",
+      "lifeHours": 11.0,
+      "fastCharging": "Rapid Charge (80% in 60m)"
+    },
+    "weight": 1.77,
+    "os": "Windows 11 Pro",
+    "suitableFor": [
+      "office",
+      "coding",
+      "college"
+    ],
+    "benchmarkScores": {
+      "singleCore": 1740,
+      "multiCore": 6600,
+      "gamingFPS": 40,
+      "gta5FPS": 46,
+      "gta5Settings": "1080p Normal (42-50 FPS)",
+      "productivityScore": 86
+    },
+    "pros": [
+      "Legendary ThinkPad tactile keyboard & TrackPoint mouse",
+      "Tested against 12 MIL-STD-810H military durability specs",
+      "Upgradable RAM slot up to 40GB total",
+      "Windows 11 Pro with enterprise dTPM 2.0 security"
+    ],
+    "cons": [
+      "Pragmatic black industrial design without flash",
+      "Integrated GPU only"
+    ],
+    "samarVerdict": "Built like an armored tank! For software engineers, programmers, and professionals who write code for 10 hours a day, the keyboard and reliability are peerless.",
+    "buyLinks": {
+      "amazon": "https://www.amazon.in/s?k=Lenovo%20ThinkPad%20E16%20i5%2013th%20Gen",
+      "flipkart": "https://www.flipkart.com/search?q=Lenovo%20ThinkPad%20E16%20i5%2013th%20Gen",
+      "brandStore": "https://www.lenovo.com/in/en/p/laptops/thinkpad/thinkpad-e-series/",
+      "brandStoreName": "Lenovo India Official Store"
+    },
+    "localImage": "images/lenovo-thinkpad-e16-i5-13th.png"
+  },
+  {
+    "id": "lenovo-loq-15-ryzen7-rtx4060",
+    "name": "Lenovo LOQ 15 (Ryzen 7 / RTX 4060 8GB / 100% sRGB)",
+    "brand": "Lenovo",
+    "series": "LOQ",
+    "price": 87990,
+    "originalPrice": 109990,
+    "rating": 4.6,
+    "reviewsCount": 2100,
+    "image": "https://p4-ofp.static.pub//fes/cms/2024/05/20/bck35fhess1td0jtxhbqx1a2s9ofzk318843.png",
+    "processor": {
+      "brand": "AMD",
+      "tier": "Ryzen 7",
+      "generation": "7000 Series",
+      "model": "AMD Ryzen 7 7435HS (8 Cores / 16 Threads)",
+      "cores": 8,
+      "threads": 16,
+      "baseSpeed": "3.1 GHz",
+      "boostSpeed": "4.5 GHz"
+    },
+    "ram": 16,
+    "ramType": "DDR5 4800MHz",
+    "ramExpandable": true,
+    "storage": 512,
+    "storageType": "PCIe NVMe M.2 SSD",
+    "gpu": {
+      "type": "Dedicated",
+      "name": "NVIDIA GeForce RTX 4060",
+      "vram": "8GB GDDR6 (115W TGP)"
+    },
+    "display": {
+      "size": "15.6 inch",
+      "resolution": "Full HD (1920x1080)",
+      "refreshRate": "144Hz",
+      "panel": "IPS 100% sRGB G-Sync",
+      "brightness": "300 nits"
+    },
+    "battery": {
+      "capacity": "60 Wh",
+      "lifeHours": 5.5,
+      "fastCharging": "Super Rapid Charge (50% in 30m)"
+    },
+    "weight": 2.38,
+    "os": "Windows 11 Home + 3-Month Game Pass",
+    "suitableFor": [
+      "gaming",
+      "coding",
+      "editing"
+    ],
+    "benchmarkScores": {
+      "singleCore": 2320,
+      "multiCore": 12400,
+      "gamingFPS": 112,
+      "gta5FPS": 122,
+      "gta5Settings": "1080p Ultra (110-135 FPS)",
+      "productivityScore": 91
+    },
+    "pros": [
+      "Incredible price for an 8GB RTX 4060 GPU",
+      "Full 100% sRGB color coverage (great for video editing)",
+      "Both RAM & SSD slots are fully upgradable",
+      "Lenovo LA1 AI chip optimizes system performance"
+    ],
+    "cons": [
+      "Ryzen 7435HS lacks iGPU, so battery is strictly 4-5 hours",
+      "Weighs 2.38 kg plus power brick"
+    ],
+    "samarVerdict": "THE #1 VALUE GAMING CHAMPION IN INDIA! You get a full 8GB RTX 4060 and a color-accurate 100% sRGB screen for under \u20b988K. Runs GTA 5 over 120 FPS smoothly.",
+    "buyLinks": {
+      "amazon": "https://www.amazon.in/s?k=Lenovo%20LOQ%2015%20Ryzen%207%20RTX%204060",
+      "flipkart": "https://www.flipkart.com/search?q=Lenovo%20LOQ%2015%20Ryzen%207%20RTX%204060",
+      "brandStore": "https://www.lenovo.com/in/en/p/laptops/loq-laptops/",
+      "brandStoreName": "Lenovo India Official Store"
+    },
+    "localImage": "images/lenovo-loq-15-ryzen7-rtx4060.png"
+  },
+  {
+    "id": "lenovo-yoga-7-2in1-oled-8840hs",
+    "name": "Lenovo Yoga 7 2-in-1 (Ryzen 7 8840HS / 2.8K OLED)",
+    "brand": "Lenovo",
+    "series": "Yoga",
+    "price": 89990,
+    "originalPrice": 114990,
+    "rating": 4.8,
+    "reviewsCount": 690,
+    "image": "https://p2-ofp.static.pub//fes/cms/2024/08/16/j3cv67hzdg6rn4fik6g0a4f6ubnqkx876384.png",
+    "processor": {
+      "brand": "AMD",
+      "tier": "Ryzen 7",
+      "generation": "8000 Series",
+      "model": "AMD Ryzen 7 8840HS (8 Cores / 16 Threads / Ryzen AI)",
+      "cores": 8,
+      "threads": 16,
+      "baseSpeed": "3.3 GHz",
+      "boostSpeed": "5.1 GHz"
+    },
+    "ram": 16,
+    "ramType": "LPDDR5X 6400MHz",
+    "ramExpandable": false,
+    "storage": 1000,
+    "storageType": "PCIe NVMe M.2 SSD",
+    "gpu": {
+      "type": "Integrated",
+      "name": "AMD Radeon 780M",
+      "vram": "Shared"
+    },
+    "display": {
+      "size": "14.0 inch",
+      "resolution": "2.8K (2880x1800)",
+      "refreshRate": "120Hz",
+      "panel": "PureSight OLED Touch (Dolby Vision, 100% DCI-P3)",
+      "brightness": "400 nits"
+    },
+    "battery": {
+      "capacity": "71 Wh",
+      "lifeHours": 12.0,
+      "fastCharging": "Rapid Charge Express (3h on 15m)"
+    },
+    "weight": 1.49,
+    "os": "Windows 11 Home + MS Office 2021",
+    "suitableFor": [
+      "college",
+      "office",
+      "coding",
+      "editing"
+    ],
+    "benchmarkScores": {
+      "singleCore": 2480,
+      "multiCore": 11800,
+      "gamingFPS": 62,
+      "gta5FPS": 66,
+      "gta5Settings": "1080p High (60-72 FPS)",
+      "productivityScore": 94
+    },
+    "pros": [
+      "Stunning 2.8K 120Hz PureSight OLED touch panel",
+      "Built-in AMD Ryzen AI NPU up to 38 TOPS",
+      "Fast Radeon 780M graphics plays GTA 5 at 66 FPS",
+      "Sublime jewel-cut comfort edges in all-aluminum CNC"
+    ],
+    "cons": [
+      "Glossy screen shows finger smudges",
+      "Soldered LPDDR5X memory"
+    ],
+    "samarVerdict": "Luxury 2-in-1 mastery! Beautiful 2.8K 120Hz OLED, 1TB SSD, 12 hours battery, and the powerful Radeon 780M that can even run GTA 5 at 60+ FPS.",
+    "buyLinks": {
+      "amazon": "https://www.amazon.in/s?k=Lenovo%20Yoga%207%20Ryzen%207%208840HS",
+      "flipkart": "https://www.flipkart.com/search?q=Lenovo%20Yoga%207%20Ryzen%207%208840HS",
+      "brandStore": "https://www.lenovo.com/in/en/p/laptops/yoga/yoga-2-in-1-series/",
+      "brandStoreName": "Lenovo India Official Store"
+    },
+    "localImage": "images/lenovo-yoga-7-2in1-oled-8840hs.png"
+  },
+  {
+    "id": "apple-macbook-air-m2",
+    "name": "Apple MacBook Air 13 (M2 Chip / 16GB)",
+    "brand": "Apple",
+    "series": "MacBook Air",
+    "price": 89900,
+    "originalPrice": 99900,
+    "rating": 4.8,
+    "reviewsCount": 3400,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/25/M2_Macbook_Air_Midnight_model_-_1.jpg",
+    "processor": {
+      "brand": "Apple",
+      "tier": "M2",
+      "generation": "Apple Silicon",
+      "model": "Apple M2 (8-Core CPU: 4 Performance + 4 Efficiency)",
+      "cores": 8,
+      "threads": 8,
+      "baseSpeed": "3.5 GHz",
+      "boostSpeed": "3.5 GHz"
+    },
+    "ram": 16,
+    "ramType": "Unified Memory",
+    "ramExpandable": false,
+    "storage": 512,
+    "storageType": "Apple PCIe SSD",
+    "gpu": {
+      "type": "Integrated",
+      "name": "Apple 8-Core GPU",
+      "vram": "Shared"
+    },
+    "display": {
+      "size": "13.6 inch",
+      "resolution": "Liquid Retina (2560x1664)",
+      "refreshRate": "60Hz",
+      "panel": "True Tone IPS (P3 Wide Color)",
+      "brightness": "500 nits"
+    },
+    "battery": {
+      "capacity": "52.6 Wh",
+      "lifeHours": 18.0,
+      "fastCharging": "MagSafe 3 Fast Charge (50% in 30m)"
+    },
+    "weight": 1.24,
+    "os": "macOS Sonoma (Sequoia ready)",
+    "suitableFor": [
+      "college",
+      "office",
+      "coding"
+    ],
+    "benchmarkScores": {
+      "singleCore": 2600,
+      "multiCore": 9800,
+      "gamingFPS": 45,
+      "gta5FPS": 58,
+      "gta5Settings": "1080p Normal/High (via CrossOver 50-62 FPS)",
+      "productivityScore": 94
+    },
+    "pros": [
+      "Groundbreaking 18-hour real battery life",
+      "Fanless 100% silent design with zero overheating",
+      "Ultra-thin 11.3mm profile weighing just 1.24 kg",
+      "MagSafe 3 charging leaves both Thunderbolt ports free"
+    ],
+    "cons": [
+      "External monitor support limited to 1 display natively",
+      "Storage & RAM cannot be upgraded"
+    ],
+    "samarVerdict": "The golden standard for college and coding under \u20b990K. Silent, featherweight, stunning Liquid Retina screen, and battery that genuinely lasts multiple days.",
+    "buyLinks": {
+      "amazon": "https://www.amazon.in/s?k=Apple%20MacBook%20Air%20M2%2016GB",
+      "flipkart": "https://www.flipkart.com/search?q=Apple%20MacBook%20Air%20M2%2016GB",
+      "brandStore": "https://www.apple.com/in/shop/buy-mac/macbook-air/13-inch-m2",
+      "brandStoreName": "Apple India Store"
+    },
+    "localImage": "images/apple-macbook-air-m2.jpg"
+  },
+  {
+    "id": "apple-macbook-air-15-m3",
+    "name": "Apple MacBook Air 15 (M3 Chip / 16GB)",
+    "brand": "Apple",
+    "series": "MacBook Air",
+    "price": 134900,
+    "originalPrice": 144900,
+    "rating": 4.9,
+    "reviewsCount": 1100,
+    "image": "https://www.apple.com/v/macbook-air/z/images/meta/macbook_air_mx__ez5y0k5yy7au_og.png",
+    "processor": {
+      "brand": "Apple",
+      "tier": "M3",
+      "generation": "Apple Silicon",
+      "model": "Apple M3 (8-Core CPU: 4 Performance + 4 Efficiency)",
+      "cores": 8,
+      "threads": 8,
+      "baseSpeed": "4.05 GHz",
+      "boostSpeed": "4.05 GHz"
+    },
+    "ram": 16,
+    "ramType": "Unified Memory",
+    "ramExpandable": false,
+    "storage": 512,
+    "storageType": "Apple PCIe SSD (Dual NAND)",
+    "gpu": {
+      "type": "Integrated",
+      "name": "Apple 10-Core GPU (Ray Tracing)",
+      "vram": "Shared"
+    },
+    "display": {
+      "size": "15.3 inch",
+      "resolution": "Liquid Retina (2880x1864)",
+      "refreshRate": "60Hz",
+      "panel": "True Tone IPS (P3 Wide Color)",
+      "brightness": "500 nits"
+    },
+    "battery": {
+      "capacity": "66.5 Wh",
+      "lifeHours": 18.0,
+      "fastCharging": "MagSafe 3 Fast Charge"
+    },
+    "weight": 1.51,
+    "os": "macOS Sequoia ready",
+    "suitableFor": [
+      "college",
+      "office",
+      "coding",
+      "editing"
+    ],
+    "benchmarkScores": {
+      "singleCore": 3100,
+      "multiCore": 12100,
+      "gamingFPS": 56,
+      "gta5FPS": 68,
+      "gta5Settings": "1080p High (via CrossOver/GPTK 62-74 FPS)",
+      "productivityScore": 98
+    },
+    "pros": [
+      "Huge 15.3-inch immersive canvas at only 1.51 kg",
+      "Hardware-accelerated ray tracing on 10-Core GPU",
+      "Six-speaker sound system with force-cancelling woofers",
+      "Supports 2 external displays with lid closed"
+    ],
+    "cons": [
+      "Still 60Hz display refresh rate",
+      "Premium price tag"
+    ],
+    "samarVerdict": "Big screen comfort without any fan noise or heat. Incredible 6-speaker spatial audio and 18 hours battery life make it the finest productivity ultrabook on earth.",
+    "buyLinks": {
+      "amazon": "https://www.amazon.in/s?k=Apple%20MacBook%20Air%2015%20M3",
+      "flipkart": "https://www.flipkart.com/search?q=Apple%20MacBook%20Air%2015%20M3",
+      "brandStore": "https://www.apple.com/in/shop/buy-mac/macbook-air/15-inch-m3",
+      "brandStoreName": "Apple India Store"
+    },
+    "localImage": "images/apple-macbook-air-15-m3.png"
+  },
+  {
+    "id": "apple-macbook-pro-14-m3-pro",
+    "name": "Apple MacBook Pro 14 (M3 Pro Chip / 18GB)",
+    "brand": "Apple",
+    "series": "MacBook Pro",
+    "price": 199900,
+    "originalPrice": 219900,
+    "rating": 4.9,
+    "reviewsCount": 820,
+    "image": "https://www.apple.com/v/macbook-pro/ax/images/meta/macbook-pro__difvbgz1plsi_og.png",
+    "processor": {
+      "brand": "Apple",
+      "tier": "M3 Pro",
+      "generation": "Apple Silicon",
+      "model": "Apple M3 Pro (11-Core CPU: 5 Perf + 6 Eff)",
+      "cores": 11,
+      "threads": 11,
+      "baseSpeed": "4.05 GHz",
+      "boostSpeed": "4.05 GHz"
+    },
+    "ram": 18,
+    "ramType": "Unified Memory",
+    "ramExpandable": false,
+    "storage": 512,
+    "storageType": "Apple High-Speed SSD",
+    "gpu": {
+      "type": "Integrated",
+      "name": "Apple 14-Core GPU",
+      "vram": "Shared"
+    },
+    "display": {
+      "size": "14.2 inch",
+      "resolution": "Liquid Retina XDR (3024x1964)",
+      "refreshRate": "120Hz ProMotion",
+      "panel": "Mini-LED XDR (1600 nits peak HDR)",
+      "brightness": "1000 nits sustained / 1600 nits peak"
+    },
+    "battery": {
+      "capacity": "70 Wh",
+      "lifeHours": 17.0,
+      "fastCharging": "MagSafe 3 Fast Charge (96W USB-C)"
+    },
+    "weight": 1.61,
+    "os": "macOS Sequoia ready",
+    "suitableFor": [
+      "coding",
+      "editing",
+      "office"
+    ],
+    "benchmarkScores": {
+      "singleCore": 3150,
+      "multiCore": 14200,
+      "gamingFPS": 72,
+      "gta5FPS": 85,
+      "gta5Settings": "1200p High (via CrossOver 75-92 FPS)",
+      "productivityScore": 99
+    },
+    "pros": [
+      "Unmatched 120Hz Liquid Retina XDR Mini-LED display",
+      "Stunning anodized Space Black finish that repels fingerprints",
+      "Full HDMI 2.1 port, SDXC card slot, and 3x Thunderbolt 4 ports",
+      "Zero throttling even on continuous 100% CPU/GPU renders"
+    ],
+    "cons": [
+      "High investment cost",
+      "Unified architecture means no aftermarket internal upgrades"
+    ],
+    "samarVerdict": "The professional's ultimate dream rig. 120Hz ProMotion XDR display, 18GB unified memory, HDMI, SD card slot, and monstrous M3 Pro rendering capability.",
+    "buyLinks": {
+      "amazon": "https://www.amazon.in/s?k=Apple%20MacBook%20Pro%2014%20M3%20Pro",
+      "flipkart": "https://www.flipkart.com/search?q=Apple%20MacBook%20Pro%2014%20M3%20Pro",
+      "brandStore": "https://www.apple.com/in/shop/buy-mac/macbook-pro",
+      "brandStoreName": "Apple India Store"
+    },
+    "localImage": "images/apple-macbook-pro-14-m3-pro.png"
+  },
+  {
+    "id": "asus-zenbook-14-oled-ultra5",
+    "name": "ASUS Zenbook 14 OLED (Intel Core Ultra 5 / Arc)",
+    "brand": "ASUS",
+    "series": "Zenbook",
+    "price": 96990,
+    "originalPrice": 119990,
+    "rating": 4.7,
+    "reviewsCount": 750,
+    "image": "https://dlcdnwebimgs.asus.com/gain/498b8989-b6b6-4556-9769-cfd072eb0cf0/w800",
+    "processor": {
+      "brand": "Intel",
+      "tier": "Core Ultra 5",
+      "generation": "Core Ultra",
+      "model": "Intel Core Ultra 5 125H (14 Cores / 18 Threads / NPU)",
+      "cores": 14,
+      "threads": 18,
+      "baseSpeed": "1.2 GHz",
+      "boostSpeed": "4.5 GHz"
+    },
+    "ram": 16,
+    "ramType": "LPDDR5X 7467MHz",
+    "ramExpandable": false,
+    "storage": 1000,
+    "storageType": "PCIe 4.0 NVMe M.2 SSD",
+    "gpu": {
+      "type": "Integrated",
+      "name": "Intel Arc Graphics (Built-in)",
+      "vram": "Shared"
+    },
+    "display": {
+      "size": "14.0 inch",
+      "resolution": "3K (2880x1800)",
+      "refreshRate": "120Hz",
+      "panel": "ASUS Lumina OLED (0.2ms, 100% DCI-P3)",
+      "brightness": "500 nits HDR"
+    },
+    "battery": {
+      "capacity": "75 Wh",
+      "lifeHours": 14.0,
+      "fastCharging": "USB-C Easy Charge (60% in 49m)"
+    },
+    "weight": 1.2,
+    "os": "Windows 11 Home + MS Office 2021",
+    "suitableFor": [
+      "college",
+      "office",
+      "coding",
+      "editing"
+    ],
+    "benchmarkScores": {
+      "singleCore": 2200,
+      "multiCore": 11400,
+      "gamingFPS": 55,
+      "gta5FPS": 58,
+      "gta5Settings": "1080p High (50-65 FPS)",
+      "productivityScore": 95
+    },
+    "pros": [
+      "Mesmerizing 3K 120Hz OLED screen with deep blacks",
+      "Huge 75Wh battery inside a featherlight 1.20 kg body",
+      "New Intel Arc GPU doubles older Iris Xe performance",
+      "Intel AI Boost NPU enables local AI processing"
+    ],
+    "cons": [
+      "OLED panel uses slightly more battery on all-white backgrounds",
+      "RAM cannot be upgraded"
+    ],
+    "samarVerdict": "The premier Windows ultrabook of 2024. Breathtaking 3K 120Hz OLED, 14 hours battery life, 1TB SSD, and Intel Arc GPU that runs GTA 5 smoothly at 58 FPS.",
+    "buyLinks": {
+      "amazon": "https://www.amazon.in/s?k=ASUS%20Zenbook%2014%20OLED%20Core%20Ultra%205",
+      "flipkart": "https://www.flipkart.com/search?q=ASUS%20Zenbook%2014%20OLED%20Core%20Ultra%205",
+      "brandStore": "https://www.asus.com/in/laptops/for-home/zenbook/",
+      "brandStoreName": "ASUS eShop India"
+    },
+    "localImage": "images/asus-zenbook-14-oled-ultra5.jpg"
+  },
+  {
+    "id": "asus-vivobook-s15-oled-ultra5",
+    "name": "ASUS Vivobook S 15 OLED (Core Ultra 5 / RGB)",
+    "brand": "ASUS",
+    "series": "Vivobook",
+    "price": 84990,
+    "originalPrice": 104990,
+    "rating": 4.6,
+    "reviewsCount": 640,
+    "image": "https://dlcdnwebimgs.asus.com/gain/971b30ea-cfbc-4180-87b6-17b5f25a0735/w800",
+    "processor": {
+      "brand": "Intel",
+      "tier": "Core Ultra 5",
+      "generation": "Core Ultra",
+      "model": "Intel Core Ultra 5 125H (14 Cores / 18 Threads)",
+      "cores": 14,
+      "threads": 18,
+      "baseSpeed": "1.2 GHz",
+      "boostSpeed": "4.5 GHz"
+    },
+    "ram": 16,
+    "ramType": "LPDDR5X 7467MHz",
+    "ramExpandable": false,
+    "storage": 512,
+    "storageType": "PCIe 4.0 NVMe M.2 SSD",
+    "gpu": {
+      "type": "Integrated",
+      "name": "Intel Arc Graphics",
+      "vram": "Shared"
+    },
+    "display": {
+      "size": "15.6 inch",
+      "resolution": "3K (2880x1620)",
+      "refreshRate": "120Hz",
+      "panel": "ASUS Lumina OLED (600 nits peak, 100% DCI-P3)",
+      "brightness": "600 nits peak"
+    },
+    "battery": {
+      "capacity": "75 Wh",
+      "lifeHours": 13.0,
+      "fastCharging": "Fast Charge (60% in 49m)"
+    },
+    "weight": 1.5,
+    "os": "Windows 11 Home + MS Office 2021",
+    "suitableFor": [
+      "college",
+      "office",
+      "coding",
+      "editing"
+    ],
+    "benchmarkScores": {
+      "singleCore": 2180,
+      "multiCore": 11200,
+      "gamingFPS": 54,
+      "gta5FPS": 56,
+      "gta5Settings": "1080p High (48-62 FPS)",
+      "productivityScore": 93
+    },
+    "pros": [
+      "Customizable 1-zone RGB backlit ErgoSense keyboard",
+      "Vibrant 3K 120Hz OLED screen with 600 nits HDR",
+      "Slim 1.39cm metal profile with CNC engraved logo",
+      "Dedicated Windows Copilot key"
+    ],
+    "cons": [
+      "SSD is 512GB (could be 1TB at this price)",
+      "Soldered LPDDR5X RAM"
+    ],
+    "samarVerdict": "High-style slim metal laptop with custom RGB lighting, cinema-grade 3K OLED, and all-day 13-hour battery life.",
+    "buyLinks": {
+      "amazon": "https://www.amazon.in/s?k=ASUS%20Vivobook%20S%2015%20OLED%20Ultra%205",
+      "flipkart": "https://www.flipkart.com/search?q=ASUS%20Vivobook%20S%2015%20OLED%20Ultra%205",
+      "brandStore": "https://www.asus.com/in/laptops/for-home/vivobook/",
+      "brandStoreName": "ASUS eShop India"
+    },
+    "localImage": "images/asus-vivobook-s15-oled-ultra5.jpg"
+  },
+  {
+    "id": "asus-tuf-gaming-f16-i7-rtx4060",
+    "name": "ASUS TUF Gaming F16 (13th Gen i7 / RTX 4060)",
+    "brand": "ASUS",
+    "series": "TUF",
+    "price": 112990,
+    "originalPrice": 139990,
+    "rating": 4.7,
+    "reviewsCount": 1420,
+    "image": "https://dlcdnwebimgs.asus.com/files/media/1635a8a8-fdd1-4db9-a4b0-75f86c9c5873/v1/img/kv/tuf-f16.png",
+    "processor": {
+      "brand": "Intel",
+      "tier": "i7",
+      "generation": "13th Gen",
+      "model": "Intel Core i7-13650HX (14 Cores / 20 Threads)",
+      "cores": 14,
+      "threads": 20,
+      "baseSpeed": "2.6 GHz",
+      "boostSpeed": "4.9 GHz"
+    },
+    "ram": 16,
+    "ramType": "DDR5 4800MHz",
+    "ramExpandable": true,
+    "storage": 1000,
+    "storageType": "PCIe 4.0 NVMe M.2 SSD",
+    "gpu": {
+      "type": "Dedicated",
+      "name": "NVIDIA GeForce RTX 4060",
+      "vram": "8GB GDDR6 (140W Max TGP)"
+    },
+    "display": {
+      "size": "16.0 inch",
+      "resolution": "FHD+ (1920x1200)",
+      "refreshRate": "165Hz",
+      "panel": "16:10 IPS G-Sync (100% sRGB)",
+      "brightness": "300 nits"
+    },
+    "battery": {
+      "capacity": "90 Wh",
+      "lifeHours": 7.0,
+      "fastCharging": "Fast Charge (50% in 30m)"
+    },
+    "weight": 2.27,
+    "os": "Windows 11 Home + 3-Month Game Pass",
+    "suitableFor": [
+      "gaming",
+      "coding",
+      "editing"
+    ],
+    "benchmarkScores": {
+      "singleCore": 2650,
+      "multiCore": 14800,
+      "gamingFPS": 115,
+      "gta5FPS": 130,
+      "gta5Settings": "1080p Ultra (120-142 FPS)",
+      "productivityScore": 96
+    },
+    "pros": [
+      "Maximum 140W full-power RTX 4060 with MUX Switch",
+      "Massive 90Wh battery (exceptional for a gaming laptop)",
+      "Taller 16:10 165Hz G-Sync display with 100% sRGB",
+      "Dual 84-blade Arc Flow Fans and 4 exhaust vents"
+    ],
+    "cons": [
+      "Large 2.27 kg footprint",
+      "Webcam is basic 720p"
+    ],
+    "samarVerdict": "A 140W RTX 4060 gaming tank! GTA 5 runs at an astonishing 130 FPS on Ultra, with a gigantic 90Wh battery and 1TB SSD included.",
+    "buyLinks": {
+      "amazon": "https://www.amazon.in/s?k=ASUS%20TUF%20Gaming%20F16%20RTX%204060",
+      "flipkart": "https://www.flipkart.com/search?q=ASUS%20TUF%20Gaming%20F16%20RTX%204060",
+      "brandStore": "https://www.asus.com/in/laptops/for-gaming/tuf-gaming/",
+      "brandStoreName": "ASUS eShop India"
+    },
+    "localImage": "images/asus-tuf-gaming-f16-i7-rtx4060.png"
+  },
+  {
+    "id": "msi-katana-15-i7-rtx4060",
+    "name": "MSI Katana 15 (13th Gen Core i7 / RTX 4060)",
+    "brand": "MSI",
+    "series": "Katana",
+    "price": 94990,
+    "originalPrice": 119990,
+    "rating": 4.5,
+    "reviewsCount": 980,
+    "image": "https://asset.msi.com/resize/image/global/product/product_16729906660144f86d81ea199ae4d62b1a134a413d.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+    "processor": {
+      "brand": "Intel",
+      "tier": "i7",
+      "generation": "13th Gen",
+      "model": "Intel Core i7-13620H (10 Cores / 16 Threads)",
+      "cores": 10,
+      "threads": 16,
+      "baseSpeed": "2.4 GHz",
+      "boostSpeed": "4.9 GHz"
+    },
+    "ram": 16,
+    "ramType": "DDR5 5200MHz",
+    "ramExpandable": true,
+    "storage": 1000,
+    "storageType": "PCIe 4.0 NVMe M.2 SSD",
+    "gpu": {
+      "type": "Dedicated",
+      "name": "NVIDIA GeForce RTX 4060",
+      "vram": "8GB GDDR6 (105W TGP)"
+    },
+    "display": {
+      "size": "15.6 inch",
+      "resolution": "Full HD (1920x1080)",
+      "refreshRate": "144Hz",
+      "panel": "IPS-Level Anti-Glare",
+      "brightness": "250 nits"
+    },
+    "battery": {
+      "capacity": "53.5 Wh",
+      "lifeHours": 5.0,
+      "fastCharging": "Fast Charge"
+    },
+    "weight": 2.25,
+    "os": "Windows 11 Home",
+    "suitableFor": [
+      "gaming",
+      "coding",
+      "editing"
+    ],
+    "benchmarkScores": {
+      "singleCore": 2500,
+      "multiCore": 13200,
+      "gamingFPS": 108,
+      "gta5FPS": 118,
+      "gta5Settings": "1080p Ultra (110-128 FPS)",
+      "productivityScore": 92
+    },
+    "pros": [
+      "10-Core i7-13620H paired with RTX 4060 under \u20b995K",
+      "1TB Gen4 SSD pre-installed",
+      "4-Zone RGB keyboard with translucent WASD keys",
+      "Dual-channel DDR5 5200MHz high-speed RAM"
+    ],
+    "cons": [
+      "Display brightness is standard 250 nits",
+      "Battery life is modest (53.5 Wh)"
+    ],
+    "samarVerdict": "Hardcore gaming value. 13th Gen Intel Core i7 with an 8GB RTX 4060 and 1TB SSD under \u20b995K. Plays GTA 5 at 118 FPS on max Ultra graphics.",
+    "buyLinks": {
+      "amazon": "https://www.amazon.in/s?k=MSI%20Katana%2015%20i7%2013th%20RTX%204060",
+      "flipkart": "https://www.flipkart.com/search?q=MSI%20Katana%2015%20i7%2013th%20RTX%204060",
+      "brandStore": "https://in.msi.com/Laptops",
+      "brandStoreName": "MSI India Official Store"
+    },
+    "localImage": "images/msi-katana-15-i7-rtx4060.png"
+  },
+  {
+    "id": "asus-rog-ally-x",
+    "name": "ASUS ROG Ally X (Z1 Extreme / 24GB RAM / 1TB SSD)",
+    "brand": "ASUS",
+    "series": "ROG Handheld",
+    "price": 89990,
+    "originalPrice": 99990,
+    "rating": 4.8,
+    "reviewsCount": 1250,
+    "image": "https://dlcdnwebimgs.asus.com/files/media/C03ED571-0D4B-47B3-90B0-BEF72BB26C05/v2/images/large/2x/product_rog_ally_x.png",
+    "processor": {
+      "brand": "AMD",
+      "tier": "Ryzen Z1",
+      "generation": "Extreme",
+      "model": "AMD Ryzen Z1 Extreme (8 Cores / 16 Threads / RDNA 3)",
+      "cores": 8,
+      "threads": 16,
+      "baseSpeed": "3.3 GHz",
+      "boostSpeed": "5.1 GHz"
+    },
+    "ram": 24,
+    "ramType": "LPDDR5X 7500MHz",
+    "ramExpandable": false,
+    "storage": 1000,
+    "storageType": "PCIe 4.0 NVMe M.2 2280 SSD",
+    "gpu": {
+      "type": "Integrated",
+      "name": "AMD Radeon 780M (12 CUs)",
+      "vram": "Shared (up to 8GB allocated)"
+    },
+    "display": {
+      "size": "7.0 inch",
+      "resolution": "Full HD (1920x1080)",
+      "refreshRate": "120Hz",
+      "panel": "IPS Touchscreen FreeSync Premium (100% sRGB)",
+      "brightness": "500 nits"
+    },
+    "battery": {
+      "capacity": "80 Wh",
+      "lifeHours": 8.5,
+      "fastCharging": "65W USB-C Fast Charging"
+    },
+    "weight": 0.68,
+    "os": "Windows 11 Home + 3-Month Game Pass",
+    "suitableFor": [
+      "gaming",
+      "college"
+    ],
+    "benchmarkScores": {
+      "singleCore": 2450,
+      "multiCore": 11200,
+      "gamingFPS": 62,
+      "gta5FPS": 68,
+      "gta5Settings": "1080p High (60-76 FPS)",
+      "productivityScore": 88
+    },
+    "pros": [
+      "Gigantic 80Wh battery (double the original ROG Ally)",
+      "24GB super-fast 7500MHz RAM eliminates stutter in AAA games",
+      "Full standard M.2 2280 1TB SSD slot for cheap storage upgrades",
+      "Runs all PC games natively (Steam, Epic, Xbox Game Pass, Rockstar)"
+    ],
+    "cons": [
+      "No physical keyboard attached (touchscreen / on-screen keyboard)",
+      "Compact 7-inch display"
+    ],
+    "samarVerdict": "Take GTA 5 everywhere you go! The 80Wh battery, 24GB RAM, and 120Hz FreeSync display let you play full PC games on flights, trains, or your bed.",
+    "buyLinks": {
+      "amazon": "https://www.amazon.in/s?k=ASUS%20ROG%20Ally%20X",
+      "flipkart": "https://www.flipkart.com/search?q=ASUS%20ROG%20Ally%20X",
+      "brandStore": "https://rog.asus.com/in/gaming-handhelds/rog-ally/rog-ally-x-2024/",
+      "brandStoreName": "ASUS ROG India"
+    },
+    "localImage": "images/asus-rog-ally-x.png"
+  },
+  {
+    "id": "asus-rog-zephyrus-g16-ultra9-rtx4070",
+    "name": "ASUS ROG Zephyrus G16 (2024 OLED / Ultra 9 / RTX 4070)",
+    "brand": "ASUS",
+    "series": "ROG Zephyrus",
+    "price": 199990,
+    "originalPrice": 239990,
+    "rating": 4.9,
+    "reviewsCount": 410,
+    "image": "https://dlcdnwebimgs.asus.com/files/media/AE97C70A-B57E-40F8-9FBA-87CE7F99428F/v1/images/large/2x/display_laptop.png",
+    "processor": {
+      "brand": "Intel",
+      "tier": "Core Ultra 9",
+      "generation": "Core Ultra",
+      "model": "Intel Core Ultra 9 185H (16 Cores / 22 Threads / NPU)",
+      "cores": 16,
+      "threads": 22,
+      "baseSpeed": "2.3 GHz",
+      "boostSpeed": "5.1 GHz"
+    },
+    "ram": 32,
+    "ramType": "LPDDR5X 7467MHz",
+    "ramExpandable": false,
+    "storage": 1000,
+    "storageType": "PCIe 4.0 NVMe M.2 SSD",
+    "gpu": {
+      "type": "Dedicated",
+      "name": "NVIDIA GeForce RTX 4070",
+      "vram": "8GB GDDR6 (105W TGP)"
+    },
+    "display": {
+      "size": "16.0 inch",
+      "resolution": "2.5K (2560x1600)",
+      "refreshRate": "240Hz",
+      "panel": "ROG Nebula OLED (0.2ms, G-Sync, 500 nits)",
+      "brightness": "500 nits"
+    },
+    "battery": {
+      "capacity": "90 Wh",
+      "lifeHours": 10.0,
+      "fastCharging": "Fast Charge (50% in 30m)"
+    },
+    "weight": 1.85,
+    "os": "Windows 11 Home + MS Office 2021",
+    "suitableFor": [
+      "gaming",
+      "coding",
+      "editing"
+    ],
+    "benchmarkScores": {
+      "singleCore": 2750,
+      "multiCore": 15600,
+      "gamingFPS": 130,
+      "gta5FPS": 145,
+      "gta5Settings": "1080p/1440p Ultra (135-155 FPS)",
+      "productivityScore": 99
+    },
+    "pros": [
+      "World's fastest 240Hz 0.2ms ROG Nebula OLED gaming screen",
+      "Featherlight 1.85 kg CNC-milled aluminum chassis",
+      "Slash Lighting custom LED array across the lid",
+      "Massive 90Wh battery with 10-hour real productivity life"
+    ],
+    "cons": [
+      "Soldered 32GB RAM (though 32GB is plenty)",
+      "High price point"
+    ],
+    "samarVerdict": "The MacBook Pro of gaming laptops! 240Hz OLED screen, CNC aluminum body, 1.85kg weight, and RTX 4070 power that pushes GTA 5 to 145 FPS.",
+    "buyLinks": {
+      "amazon": "https://www.amazon.in/s?k=ASUS%20ROG%20Zephyrus%20G16%202024%20OLED",
+      "flipkart": "https://www.flipkart.com/search?q=ASUS%20ROG%20Zephyrus%20G16%202024%20OLED",
+      "brandStore": "https://rog.asus.com/in/laptops/rog-zephyrus/",
+      "brandStoreName": "ASUS ROG India"
+    },
+    "localImage": "images/asus-rog-zephyrus-g16-ultra9-rtx4070.png"
+  },
+  {
+    "id": "asus-rog-strix-scar-16-i9-rtx4080",
+    "name": "ASUS ROG Strix SCAR 16 (14th Gen i9 / Mini-LED / RTX 4080)",
+    "brand": "ASUS",
+    "series": "ROG Strix",
+    "price": 289990,
+    "originalPrice": 339990,
+    "rating": 4.9,
+    "reviewsCount": 320,
+    "image": "https://dlcdnwebimgs.asus.com/files/media/987D789F-D955-487C-89E9-B7F1EAA98BB1/v1/img/kv/bg-kv.jpg",
+    "processor": {
+      "brand": "Intel",
+      "tier": "i9",
+      "generation": "14th Gen",
+      "model": "Intel Core i9-14900HX (24 Cores / 32 Threads up to 5.8 GHz)",
+      "cores": 24,
+      "threads": 32,
+      "baseSpeed": "2.2 GHz",
+      "boostSpeed": "5.8 GHz"
+    },
+    "ram": 32,
+    "ramType": "DDR5 5600MHz",
+    "ramExpandable": true,
+    "storage": 2000,
+    "storageType": "PCIe 4.0 NVMe M.2 SSD",
+    "gpu": {
+      "type": "Dedicated",
+      "name": "NVIDIA GeForce RTX 4080",
+      "vram": "12GB GDDR6 (175W Max TGP)"
+    },
+    "display": {
+      "size": "16.0 inch",
+      "resolution": "QHD+ (2560x1600)",
+      "refreshRate": "240Hz",
+      "panel": "ROG Nebula HDR Mini-LED (1100 nits, 2000+ zones)",
+      "brightness": "1100 nits peak"
+    },
+    "battery": {
+      "capacity": "90 Wh",
+      "lifeHours": 5.5,
+      "fastCharging": "Fast Charge (50% in 30m)"
+    },
+    "weight": 2.65,
+    "os": "Windows 11 Home + MS Office 2021",
+    "suitableFor": [
+      "gaming",
+      "editing",
+      "coding"
+    ],
+    "benchmarkScores": {
+      "singleCore": 3250,
+      "multiCore": 21500,
+      "gamingFPS": 160,
+      "gta5FPS": 175,
+      "gta5Settings": "1440p Maxed Out Ultra (165-185 FPS)",
+      "productivityScore": 100
+    },
+    "pros": [
+      "175W full-wattage RTX 4080 with 12GB VRAM",
+      "2000+ zone Mini-LED panel with 1100 nits HDR brightness",
+      "Tri-Fan cooling with Conductonaut Extreme liquid metal",
+      "Semi-translucent chassis with customizable RGB lightbar"
+    ],
+    "cons": [
+      "Heavy 2.65 kg weight plus 330W power brick",
+      "Very high investment"
+    ],
+    "samarVerdict": "The absolute peak of PC laptop performance. 24-core Intel Core i9-14900HX, 175W RTX 4080, and a blinding 1100 nits Mini-LED screen. GTA 5 runs at 175 FPS in full 1440p.",
+    "buyLinks": {
+      "amazon": "https://www.amazon.in/s?k=ASUS%20ROG%20Strix%20SCAR%2016%20RTX%204080",
+      "flipkart": "https://www.flipkart.com/search?q=ASUS%20ROG%20Strix%20SCAR%2016%20RTX%204080",
+      "brandStore": "https://rog.asus.com/in/laptops/rog-strix/",
+      "brandStoreName": "ASUS ROG India"
+    },
+    "localImage": "images/asus-rog-strix-scar-16-i9-rtx4080.jpg"
+  },
+  {
+    "id": "dell-alienware-m16-r2-ultra7-rtx4070",
+    "name": "Dell Alienware m16 R2 (Core Ultra 7 / 240Hz / RTX 4070)",
+    "brand": "Dell",
+    "series": "Alienware",
+    "price": 184990,
+    "originalPrice": 219990,
+    "rating": 4.8,
+    "reviewsCount": 480,
+    "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/alienware-notebooks/ac16250/media-gallery/laptop-alienware-ac16250-gallery-1.psd?fmt=png-alpha&wid=800",
+    "processor": {
+      "brand": "Intel",
+      "tier": "Core Ultra 7",
+      "generation": "Core Ultra",
+      "model": "Intel Core Ultra 7 155H (16 Cores / 22 Threads / NPU)",
+      "cores": 16,
+      "threads": 22,
+      "baseSpeed": "1.4 GHz",
+      "boostSpeed": "4.8 GHz"
+    },
+    "ram": 16,
+    "ramType": "DDR5 5600MHz",
+    "ramExpandable": true,
+    "storage": 1000,
+    "storageType": "PCIe NVMe M.2 SSD",
+    "gpu": {
+      "type": "Dedicated",
+      "name": "NVIDIA GeForce RTX 4070",
+      "vram": "8GB GDDR6 (140W Max TGP)"
+    },
+    "display": {
+      "size": "16.0 inch",
+      "resolution": "QHD+ (2560x1600)",
+      "refreshRate": "240Hz",
+      "panel": "ComfortView Plus 3ms (100% sRGB, G-Sync)",
+      "brightness": "300 nits"
+    },
+    "battery": {
+      "capacity": "90 Wh",
+      "lifeHours": 7.0,
+      "fastCharging": "ExpressCharge"
+    },
+    "weight": 2.61,
+    "os": "Windows 11 Home + Alienware Command Center",
+    "suitableFor": [
+      "gaming",
+      "coding",
+      "editing"
+    ],
+    "benchmarkScores": {
+      "singleCore": 2700,
+      "multiCore": 15100,
+      "gamingFPS": 135,
+      "gta5FPS": 155,
+      "gta5Settings": "1440p Ultra Maxed (145-165 FPS)",
+      "productivityScore": 98
+    },
+    "pros": [
+      "Iconic Alienware aesthetic with RGB stadium loop lighting",
+      "Dedicated Stealth Mode button (F2) for instant whisper-quiet cooling",
+      "140W full-power RTX 4070 GPU with Advanced Optimus",
+      "Both DDR5 RAM slots and dual M.2 SSD slots are fully upgradable"
+    ],
+    "cons": [
+      "Weighs 2.61 kg",
+      "Power brick is fairly hefty"
+    ],
+    "samarVerdict": "The legend redesigned! 15% smaller footprint than last generation, 240Hz QHD+ screen, Stealth Mode key for classrooms and coffee shops, and 155 FPS in GTA 5.",
+    "buyLinks": {
+      "amazon": "https://www.amazon.in/s?k=Dell%20Alienware%20m16%20R2%20RTX%204070",
+      "flipkart": "https://www.flipkart.com/search?q=Dell%20Alienware%20m16%20R2%20RTX%204070",
+      "brandStore": "https://www.dell.com/en-in/shop/gaming-and-games/alienware-laptops",
+      "brandStoreName": "Dell India Official Store"
+    },
+    "localImage": "images/dell-alienware-m16-r2-ultra7-rtx4070.png"
   }
 ];
 
@@ -1975,6 +3345,24 @@ const QUICK_PRESETS = [
     "title": "10+ Hour Battery Ultrabook",
     "budget": 130000,
     "purpose": "college",
+    "processor": "any",
+    "ram": "16",
+    "storage": "512",
+    "brand": "all"
+  },
+  {
+    "title": "2-in-1 Touch + Stylus (< ₹65K)",
+    "budget": 65000,
+    "purpose": "college",
+    "processor": "any",
+    "ram": "16",
+    "storage": "512",
+    "brand": "Lenovo"
+  },
+  {
+    "title": "RTX 4060 Value Monster (< ₹90K)",
+    "budget": 90000,
+    "purpose": "gaming",
     "processor": "any",
     "ram": "16",
     "storage": "512",
